@@ -1,104 +1,59 @@
-![n8n.io - Workflow Automation](https://user-images.githubusercontent.com/65276001/173571060-9f2f6d7b-bac0-43b6-bdb2-001da9694058.png)
-
-# n8n - Workflow automation tool
-
-n8n is an extendable workflow automation tool. With a [fair-code](https://faircode.io) distribution model, n8n
-will always have visible source code, be available to self-host, and allow you to add your own custom
-functions, logic and apps. n8n's node-based approach makes it highly versatile, enabling you to connect
-anything to everything.
-
-![n8n.io - Screenshot](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot.png)
-
-## Demo
-
-[:tv: A short video (< 5 min)](https://www.youtube.com/watch?v=1MwSoB0gnM4) that goes over key concepts of
-creating workflows in n8n.
-
-## Available integrations
-
-n8n has 200+ different nodes to automate workflows. The list can be found on:
-[https://n8n.io/integrations](https://n8n.io/integrations)
-
-## Documentation
-
-The official n8n documentation can be found on our [documentation website](https://docs.n8n.io)
-
-Additional information and example workflows on the [n8n.io website](https://n8n.io)
-
-The release notes can be found [here](https://docs.n8n.io/release-notes/) and the list of breaking
-changes [here](https://github.com/n8n-io/n8n/blob/master/packages/cli/BREAKING-CHANGES.md).
-
-## Usage
-
-- :books: Learn
-  [how to **use** it from the command line](https://docs.n8n.io/reference/cli-commands/)
-- :whale: Learn
-  [how to run n8n in **Docker**](https://docs.n8n.io/hosting/installation/docker/)
-
-## Start
-
-You can try n8n without installing it using npx. You must have [Node.js](https://nodejs.org/en/) installed.
-From the terminal, run:
-
-`npx n8n`
-
-This command will download everything that is needed to start n8n. You can then access n8n and start building workflows by opening [http://localhost:5678](http://localhost:5678).
-
-## n8n cloud
-
-Sign-up for an [n8n cloud](https://www.n8n.io/cloud/) account.
-
-While n8n cloud and n8n are the same in terms of features, n8n cloud provides certain conveniences such as:
-
-- Not having to set up and maintain your n8n instance
-- Managed OAuth for authentication
-- Easily upgrading to the newer n8n versions
-
-## Build with LangChain and AI in n8n (beta)
-
-With n8n's LangChain nodes you can build AI-powered functionality within your workflows. The LangChain nodes are configurable, meaning you can choose your preferred agent, LLM, memory, and so on. Alongside the LangChain nodes, you can connect any n8n node as normal: this means you can integrate your LangChain logic with other data sources and services.
-
-Learn more in the [documentation](https://docs.n8n.io/langchain/).
-
-- [LangChain nodes package](https://www.npmjs.com/package/@n8n/n8n-nodes-langchain)
-- [Chatbot package](https://www.npmjs.com/package/@n8n/chat)
-
-## Support
-
-If you have problems or questions go to our forum, we will then try to help you asap:
-
-[https://community.n8n.io](https://community.n8n.io)
-
-## Jobs
-
-If you are interested in working for n8n and so shape the future of the project check out our
-[job posts](https://apply.workable.com/n8n/)
-
-## What does n8n mean and how do you pronounce it?
-
-**Short answer:** It means "nodemation" and it is pronounced as n-eight-n.
-
-**Long answer:** "I get that question quite often (more often than I expected) so I decided it is probably
-best to answer it here. While looking for a good name for the project with a free domain I realized very
-quickly that all the good ones I could think of were already taken. So, in the end, I chose nodemation.
-'node-' in the sense that it uses a Node-View and that it uses Node.js and '-mation' for 'automation' which is
-what the project is supposed to help with. However, I did not like how long the name was and I could not
-imagine writing something that long every time in the CLI. That is when I then ended up on 'n8n'." - **Jan
-Oberhauser, Founder and CEO, n8n.io**
-
-## Development setup
-
-Have you found a bug :bug: ? Or maybe you have a nice feature :sparkles: to contribute ? The
-[CONTRIBUTING guide](https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md) will help you get your
-development environment ready in minutes.
-
-## License
-
-n8n is [fair-code](https://faircode.io) distributed under the
-[**Sustainable Use License**](https://github.com/n8n-io/n8n/blob/master/packages/cli/LICENSE.md) and the
-[**n8n Enterprise License**](https://github.com/n8n-io/n8n/blob/master/packages/cli/LICENSE_EE.md).
-
-Proprietary licenses are available for enterprise customers. [Get in touch](mailto:license@n8n.io)
-
-Additional information about the license model can be found in the
-[docs](https://docs.n8n.io/reference/license/).
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/65276001/173571060-9f2f6d7b-bac0-43b6-bdb2-001da9694058.png"><img src="https://user-images.githubusercontent.com/65276001/173571060-9f2f6d7b-bac0-43b6-bdb2-001da9694058.png" alt="n8n.io - 工作流程自动化" style="max-width: 100%;"></a></p>
+<h1 tabindex="-1" dir="auto"><a id="user-content-n8n---workflow-automation-tool" class="anchor" aria-hidden="true" tabindex="-1" href="#n8n---workflow-automation-tool"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n8n - 工作流程自动化工具</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n8n 是一个可扩展的工作流程自动化工具。</font><font style="vertical-align: inherit;">通过</font></font><a href="https://faircode.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">公平代码</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分发模型，n8n 将始终拥有可见的源代码，可用于自托管，并允许您添加自己的自定义函数、逻辑和应用程序。</font><font style="vertical-align: inherit;">n8n 基于节点的方法使其具有高度通用性，使您能够将任何事物连接到任何事物。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot.png"><img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot.png" alt="n8n.io - 屏幕截图" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-demo" class="anchor" aria-hidden="true" tabindex="-1" href="#demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></h2>
+<p dir="auto"><a href="https://www.youtube.com/watch?v=1MwSoB0gnM4" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📺 一个简短的视频（&lt; 5 分钟），</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">介绍了在 n8n 中创建工作流程的关键概念。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-available-integrations" class="anchor" aria-hidden="true" tabindex="-1" href="#available-integrations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可用的集成</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n8n 有 200 多个不同的节点来自动化工作流程。</font><font style="vertical-align: inherit;">该列表可以在以下位置找到：
+ </font></font><a href="https://n8n.io/integrations" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://n8n.io/integrations</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><a href="https://docs.n8n.io" rel="nofollow"><font style="vertical-align: inherit;">官方 n8n 文档可以在我们的文档网站</font></a><font style="vertical-align: inherit;">上找到</font></font><a href="https://docs.n8n.io" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><a href="https://n8n.io" rel="nofollow"><font style="vertical-align: inherit;">n8n.io 网站</font></a><font style="vertical-align: inherit;">上的其他信息和示例工作流程</font></font><a href="https://n8n.io" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://docs.n8n.io/release-notes/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到发行说明，并</font></font><a href="https://github.com/n8n-io/n8n/blob/master/packages/cli/BREAKING-CHANGES.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到重大更改列表</font><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-usage" class="anchor" aria-hidden="true" tabindex="-1" href="#usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用法</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📚 了解
+</font></font><a href="https://docs.n8n.io/reference/cli-commands/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何</font><font style="vertical-align: inherit;">从命令行</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用它</font></font></strong><font style="vertical-align: inherit;"></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🐳 了解
+</font></font><a href="https://docs.n8n.io/hosting/installation/docker/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何在</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker中运行 n8n</font></font></strong></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-start" class="anchor" aria-hidden="true" tabindex="-1" href="#start"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以尝试 n8n，而无需使用 npx 安装它。</font><font style="vertical-align: inherit;">您必须</font><font style="vertical-align: inherit;">安装</font></font><a href="https://nodejs.org/en/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node.js。</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从终端运行：</font></font></p>
+<p dir="auto"><code>npx n8n</code></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此命令将下载启动 n8n 所需的所有内容。</font></font><a href="http://localhost:5678" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，您可以通过打开http://localhost:5678</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来访问 n8n 并开始构建工作流程</font><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-n8n-cloud" class="anchor" aria-hidden="true" tabindex="-1" href="#n8n-cloud"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n8n云</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注册</font></font><a href="https://www.n8n.io/cloud/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n8n 云</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帐户。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">虽然 n8n cloud 和 n8n 在功能上相同，但 n8n cloud 提供了某些便利，例如：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无需设置和维护您的 n8n 实例</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于身份验证的托管 OAuth</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松升级到较新的 n8n 版本</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-build-with-langchain-and-ai-in-n8n-beta" class="anchor" aria-hidden="true" tabindex="-1" href="#build-with-langchain-and-ai-in-n8n-beta"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 n8n（测试版）中使用 LangChain 和 AI 进行构建</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">借助 n8n 的 LangChain 节点，您可以在工作流程中构建人工智能驱动的功能。</font><font style="vertical-align: inherit;">LangChain节点是可配置的，这意味着您可以选择您喜欢的代理、LLM、内存等。</font><font style="vertical-align: inherit;">除了 LangChain 节点之外，您还可以正常连接任何 n8n 节点：这意味着您可以将 LangChain 逻辑与其他数据源和服务集成。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://docs.n8n.io/langchain/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中了解更多信息</font><font style="vertical-align: inherit;">。</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.npmjs.com/package/@n8n/n8n-nodes-langchain" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LangChain节点包</font></font></a></li>
+<li><a href="https://www.npmjs.com/package/@n8n/chat" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聊天机器人包</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-support" class="anchor" aria-hidden="true" tabindex="-1" href="#support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有问题或疑问，请访问我们的论坛，我们将尽力尽快帮助您：</font></font></p>
+<p dir="auto"><a href="https://community.n8n.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://community.n8n.io</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-jobs" class="anchor" aria-hidden="true" tabindex="-1" href="#jobs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有兴趣为 n8n 工作并塑造该项目的未来，请查看我们的
+</font></font><a href="https://apply.workable.com/n8n/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">职位发布</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-what-does-n8n-mean-and-how-do-you-pronounce-it" class="anchor" aria-hidden="true" tabindex="-1" href="#what-does-n8n-mean-and-how-do-you-pronounce-it"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n8n 是什么意思以及它如何发音？</font></font></h2>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简短回答：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它的意思是“nodemation”，发音为n-eight-n。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">长答案：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> “我经常收到这个问题（比我预期的更频繁），所以我决定最好在这里回答它。在为具有免费域名的项目寻找一个好的名称时，我很快意识到所有好的名称我能想到的都已经被采用了。所以，最后，我选择了nodemation。“node-”是因为它使用Node-View，并且它使用Node.js和“-mation”来实现“自动化”， “这就是该项目应该提供的帮助。但是，我不喜欢这个名称有多长，而且我无法想象每次在 CLI 中都写那么长的东西。就在那时，我最终选择了‘n8n’。” </font><font style="vertical-align: inherit;">- </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jan Oberhauser，n8n.io 创始人兼首席执行官</font></font></strong></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-development-setup" class="anchor" aria-hidden="true" tabindex="-1" href="#development-setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发设置</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您发现错误了吗🐛？</font><font style="vertical-align: inherit;">或者也许您有一个不错的功能 ✨ 可以贡献？</font></font><a href="https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将
+</font><font style="vertical-align: inherit;">帮助您在几分钟内准备好开发环境。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">n8n 是</font><font style="vertical-align: inherit;">根据
+</font><a href="https://github.com/n8n-io/n8n/blob/master/packages/cli/LICENSE.md"><strong><font style="vertical-align: inherit;">可持续使用许可证</font></strong></a><font style="vertical-align: inherit;">和
+</font><a href="https://github.com/n8n-io/n8n/blob/master/packages/cli/LICENSE_EE.md"><strong><font style="vertical-align: inherit;">n8n 企业许可证</font></strong></a></font><a href="https://faircode.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分发的公平代码</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://github.com/n8n-io/n8n/blob/master/packages/cli/LICENSE.md"><strong><font style="vertical-align: inherit;"></font></strong></a><font style="vertical-align: inherit;"></font><a href="https://github.com/n8n-io/n8n/blob/master/packages/cli/LICENSE_EE.md"><strong><font style="vertical-align: inherit;"></font></strong></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">专有许可证可供企业客户使用。</font></font><a href="mailto:license@n8n.io"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保持联系</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://docs.n8n.io/reference/license/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关许可证模型的其他信息可以在文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中找到
+</font><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
